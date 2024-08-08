@@ -1,0 +1,15 @@
+[runtime]
+log_level="INFO"
+
+[normalize]
+loader_file_format="parquet"
+
+[normalize.data_writer]
+disable_compression=true
+
+[sources.baccarat_dataset]
+# Base URL for the API
+base_url = "https://baccarat-api-v1.onrender.com"
+
+[destination.filesystem]
+bucket_url = "../data_export"
