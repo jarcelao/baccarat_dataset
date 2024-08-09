@@ -1,6 +1,6 @@
 # baccarat_dataset
 
-Ingest data from [https://github.com/gryAI/Baccarat-Game-Data-Generator-API](https://github.com/gryAI/Baccarat-Game-Data-Generator-API) using [dlt](https://dlthub.com/).
+Ingest data from [https://baccarat-api-v1.onrender.com/](https://baccarat-api-v1.onrender.com/) using [dlt](https://dlthub.com/).
 
 ## Description
 
@@ -86,3 +86,6 @@ In addition, you also may expand on the project with the below suggestions:
 * Fully automate the pipeline using a data orchestrator (e.g. [Airflow](https://airflow.apache.org/))
 * Change the sink to a working data warehouse or lakehouse (e.g. [BigQuery](https://cloud.google.com/bigquery), [GCS](https://cloud.google.com/storage?hl=en))
 * Play the role of an Analytics Engineer and transform the data using [dbt](https://www.getdbt.com/)
+
+## Special Thanks
+Special thanks to [gryAI](https://github.com/gryAI) for developing and deploying the API! The source repo is available [here](https://github.com/gryAI/Baccarat-Game-Data-Generator-API).
